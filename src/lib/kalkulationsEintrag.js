@@ -6,7 +6,7 @@ export class kalkulationsEintrag {
     modifizierend;
     istAbzug;
     ist100;
-    
+
     constructor(name, wert, prozent, istBearbeitbar, modifizierend, istAbzug = false, ist100 = true) {
         this.name = name;
         this.wert = wert;
@@ -15,9 +15,9 @@ export class kalkulationsEintrag {
         this.modifizierend = modifizierend;
         this.istAbzug = istAbzug;
         this.ist100 = ist100;
-  }
-    
-    get abzug(){
-        return -(+this.istAbzug || -1) * this.wert
+    }
+
+    get abzug() {
+        return -(+this.istAbzug || -1) * this.wert;
     }
 }
