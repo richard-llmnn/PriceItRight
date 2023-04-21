@@ -31,7 +31,7 @@
 			{#if wert.modifizierend}
 				<td>
 					{#if wert.istBearbeitbar}
-						{#if wert.prozent}
+						{#if wert.prozent !== undefined}
 							<input type="number" bind:value={wert.prozent}>
 						{:else}
 							<input type="number" bind:value={wert.wert}>
@@ -41,9 +41,9 @@
 					{/if}
 				</td>
 				{#if wert.ist100}
-					<td>{(wert.wert = +(wert.prozent ? kalkulation[index-1][1].wert * wert.prozent / 100 : wert.wert).toFixed(2))}</td>
+					<td>{(wert.wert = +(wert.prozent !== undefined ? kalkulation[index-1][1].wert * wert.prozent / 100 : wert.wert).toFixed(2))}</td>
 				{:else}
-					<td>{(wert.wert = +(wert.prozent ? kalkulation[index-1][1].wert / (100-wert.prozent) * wert.prozent : wert.wert)).toFixed(2)}</td>
+					<td>{(wert.wert = +(wert.prozent !== undefined ? kalkulation[index-1][1].wert / (100-wert.prozent) * wert.prozent : wert.wert)).toFixed(2)}</td>
 				{/if}
 			{:else}
 				<td></td>
