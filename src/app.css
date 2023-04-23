@@ -88,3 +88,8 @@ input[type="number"] {
 .bright-yellow {
     background-color: #ffe16b;
 }
+
+#github-text {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
