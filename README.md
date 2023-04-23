@@ -4,7 +4,7 @@
 > Verwenden Sie unser Web-Tool, um Ihre Waren mit Leichtigkeit zu kalkulieren und Ihre Gewinne zu steigern.  
 > Unterstützt werden Vorwärts-, Rückwärts- und Differenzkalkulation.
 
-[Hier gehts zur Webapp!]()  
+[Hier gehts zur Webapp!](https://richard-llmnn.github.io/PriceItRight/)  
 
 Mehr Informationen über Handelskalkulationen findest du hier: https://www.gruenderlexikon.de/checkliste/informieren/preiskalkulation/handelskalkulation/
 
