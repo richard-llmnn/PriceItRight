@@ -212,3 +212,5 @@
         <EuroInput slot="second" valueStoreKey="bruttoverkaufspreis_data" disabled={mode === 1} />
     </Eintrag>
 </table>
+
+<p id="github-text"><b>GitHub:</b> <a href="https://github.com/richard-llmnn/PriceItRight">https://github.com/richard-llmnn/PriceItRight</a></p>
