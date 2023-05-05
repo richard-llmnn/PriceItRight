@@ -177,7 +177,7 @@
         <PercentageInput slot="first" valueStoreKey="gewinnzuschlag_data" disabled={mode === 3} />
         <svelte:fragment slot="second">{euroFormatter.format($calculatedData["gewinnzuschlag"])}</svelte:fragment>
     </Eintrag>
-    <Eintrag name="Berverkaufspreis" sign="=">
+    <Eintrag name="Barverkaufspreis" sign="=">
         <svelte:fragment slot="second">{euroFormatter.format($calculatedData["barverkaufspreis"])}</svelte:fragment>
     </Eintrag>
     <Eintrag name="Kundenskonto">
